@@ -1,0 +1,71 @@
+body {
+  font-family: Palatino;
+  background: url('./images/netflix2.jpg');
+  background-size: 100%;
+  color: white;
+}
+
+
+h1{
+  color: white;
+}
+h2{
+  color: white;
+}
+h3{
+  color: white;
+}
+p{
+  color: white;
+}
+
+
+#form-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start | flex-end | center;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.form-item {
+  margin-right: 1.8rem;
+}
+
+label.primary {
+  display: block;
+  margin: 0.4em 0;
+}
+
+label::after {
+  content: ":";
+}
+
+
+button, input[type="submit"] {
+  width:10%;
+  background-color: red;
+  color: white;
+  padding: 10px 10px;
+  margin: 0 3%;
+  border: none;
+  border-radius:54px;
+  cursor: pointer;
+}
+
+
+#netflix-series-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.netflix-series-list-item {
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid black;
+  text-align:justify;
+  border-radius: 5%;
+  background: red;
+}
